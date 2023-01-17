@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.not-found-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-img {
+  width: 55%;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    width: 25%;
+    height: 60%;
+  }
+}
+
+.not-found-heading {
+  font-size: 20px;
+  color: black;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 35px;
+  }
+}
+
+.not-found-description {
+  font-size: 18px;
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-description {
+    font-size: 20px;
+  }
+}
